@@ -118,3 +118,5 @@ export function createBridge(
 export function initialize(contentWindow: window): void {
   installHook(contentWindow);
 }
+
+export {attach} from 'react-devtools-shared/src/backend/renderer';
